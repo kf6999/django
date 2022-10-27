@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% for mesocycle in mesocycle_list %}
+    <div class="mesocycle">
+        <h2>
+            <a href="">{{ mesocycle.mesocycle }}</a>
+        </h2>
+    </div>
+{% endfor %}
+{% endblock content %}

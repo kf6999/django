@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>
+            Workout
+        </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <a href="{% url 'mesocycle' %}">Mesocycle</a>
+            </h1>
+        </header>
+        <div>
+            {% block content %}
+            {% endblock content %}
+        </div>
+    </body>
+</html>
