@@ -1,14 +1,15 @@
+{% load static %}
 <html>
     <head>
-        <title>
-            Workout
-        </title>
+        <title>Workout</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/base.css' %}">
     </head>
 
     <body>
         <header>
             <h1>
-                <a href="{% url 'mesocycle' %}">Mesocycle</a>
+                <a href="{% url 'mesocycle' %}">Home</a>
             </h1>
         </header>
         <div>
