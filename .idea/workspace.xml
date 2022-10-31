@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e65d706-ebd1-4503-9ecc-c0452967475c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout/templates/day.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workout/templates/week.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workout/migrations/0004_alter_workout_exercise.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/workout/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workout/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/workout/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workout/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/workout/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workout/templates/week.html" beforeDir="false" afterPath="$PROJECT_DIR$/workout/templates/week.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/workout/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/workout/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,13 +24,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GgqPnYQenb5wBSk7x5rJChWoj5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -73,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666820553024</updated>
       <workItem from="1666820554257" duration="9000" />
-      <workItem from="1666820574990" duration="15139000" />
+      <workItem from="1666820574990" duration="20910000" />
     </task>
     <servers />
   </component>
@@ -90,5 +92,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

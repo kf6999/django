@@ -41,7 +41,7 @@ class Exercise(models.Model):
 
 
 class Workout(models.Model):
-    exercise = models.ForeignKey(Exercise, on_delete=models.CASCADE)
+    exercise = models.ForeignKey(Exercise, on_delete=models.RESTRICT)
     setCount = models.IntegerField()
     weight = models.IntegerField()
     repGoal = models.IntegerField()

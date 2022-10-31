@@ -9,6 +9,7 @@ class MesocycleListView(ListView):
 
 class WeekListView(ListView):
     model = Week
+    weeks = Week.objects.select_related().all()
     template_name = "week.html"
 
 
